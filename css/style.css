@@ -99,6 +99,8 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   left: 0;
   top: 33px;
+  max-height: 150px;
+  overflow: auto;
 }
 
 .list__item {
@@ -112,4 +114,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .list__item:hover {
   background-color: rgba(167, 167, 167, 0.2);
+}
+
+.list._hide {
+  display: none;
 }

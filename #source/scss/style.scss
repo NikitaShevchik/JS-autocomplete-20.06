@@ -26,6 +26,8 @@
     position: absolute;
     left: 0;
     top: 33px;
+    max-height: 150px;
+    overflow: auto;
 		&__item {
             font-size: 20px;
             border: 1px solid rgba(0, 0, 0, 0.452);
@@ -38,6 +40,6 @@
             }
 		}
 }
-// .list._hide{
-//     display: none;
-// }
+.list._hide{
+    display: none;
+}
