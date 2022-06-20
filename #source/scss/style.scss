@@ -1,0 +1,43 @@
+// Обнуление стилей
+@import "nullstyle.scss";
+// Подключение шрифтов
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin&display=swap');
+//SCSS
+.main{
+    font-family: 'Anek Latin', sans-serif;
+}
+.content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.autocomplete {
+    margin: 50px 0;
+    position: relative;
+		&__input {
+            border: 1px solid #000;
+            font-size: 20px;
+            padding: 5px 10px;
+            position: relative;
+		}
+		&__list {
+		}
+}
+.list {
+    position: absolute;
+    left: 0;
+    top: 33px;
+		&__item {
+            font-size: 20px;
+            border: 1px solid rgba(0, 0, 0, 0.452);
+            padding: 5px 10px;
+            width: 100%;
+            background-color: rgba(167, 167, 167, 0.1);
+            cursor: pointer;
+            &:hover{
+                background-color: rgba(167, 167, 167, 0.2);
+            }
+		}
+}
+// .list._hide{
+//     display: none;
+// }
